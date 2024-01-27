@@ -5,7 +5,8 @@ module.exports = {
     output: {
         filename: "main.js",
         path: path.resolve(__dirname, "dist"),
-        assetModuleFilename: "imgs/[name].[ext]",
+        assetModuleFilename: "imgs/[name].[ext]", 
+        assetModuleFilename: "svgs/[name].[ext]",
     },
     module: {
         rules: [
